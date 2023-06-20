@@ -58,7 +58,12 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Cata`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Web Developer", "Web Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm an active, cheerful and well predisposed person. I think of myself as an organized and pragmatic woman. I am interested in learning and acquiring new knowledge. I get along very well with people and working as a team.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <a href="https://www.linkedin.com/in/catalinasantiniechegaray" >
+                  <button onClick={() => console.log('connect')}>
+                    Let’s Connect 
+                    <ArrowRightCircle size={25} />
+                  </button>
+                  </a>
               </div>}
             </TrackVisibility>
           </Col>
